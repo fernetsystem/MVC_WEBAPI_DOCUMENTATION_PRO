@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="webapi_productModelStoreContainer" CdmEntityContainer="webapi_productEntities">
+    <EntitySetMapping Name="products">
+      <EntityTypeMapping TypeName="webapi_productModel.products">
+        <MappingFragment StoreEntitySet="products">
+          <ScalarProperty Name="idProduct" ColumnName="idProduct" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="descrip" ColumnName="descrip" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="cant" ColumnName="cant" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
